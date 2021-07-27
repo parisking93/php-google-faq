@@ -60,9 +60,7 @@ $arrPage = [
     ]
 ];
 
-// foreach ($arrPage as $k => $value) {
-//     var_dump($k);
-// }
+$linkFooter = ['Google','About Google','Privacy','Terms'];
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -92,7 +90,7 @@ $arrPage = [
             </ul>
         </nav>
     </header>
-
+    <!-- MAIN  -->
     <main>
         <div class="box-text">
         <?php foreach($arrPage['FAQ'] as $k => $text) { ?>
@@ -101,7 +99,26 @@ $arrPage = [
 
         <?php } ?>
         </div>
+        <!-- footer   -->
+        <footer>
+            <div class="box-text container-footer">
+                <ul>
+                    <?php foreach($linkFooter as $links) { ?>
+                        <li><?php echo $links; ?></li>
+                    <?php } ?>
+                </ul>
+                <div class="box-select">
+                    <select name="language" id="">
+                        <option value="English">English</option>
+                        <option value="Italiano">Italiano</option>
+                    </select>
+                </div>
+            </div>
+
+        </footer>
+        <!-- fine footer  -->
     </main>
+    <!-- FINE MAIN  -->
     
 </body>
 </html>
