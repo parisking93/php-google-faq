@@ -1,3 +1,6 @@
+body {
+    overflow: hidden;
+}
 /* header  */
 header {
     height: 110px;
@@ -43,7 +46,7 @@ nav ul li:last-child a{
 /* fine header  */
 /* main  */
 main {
-    height: calc(100vh - 110px);
+    height: calc(100vh - 112px);
     overflow: auto;
     padding-top: 50px;
 }
