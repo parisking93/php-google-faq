@@ -52,3 +52,10 @@ main {
     margin: auto;
     max-width: 1320px;
 }
+ol {
+    padding-left: 1rem;
+}
+.o-list {
+    counter-reset: none;
+
+  }

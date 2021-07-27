@@ -23,19 +23,22 @@ $arrPage = [
             "answer" => "Your account is associated with a country (or territory) in the Terms of Service so that we can determine two things: </br> </br>
             <ol>
                 <li>
-                    The Google affiliate that provides the services, that processes your information, and that is responsible for complying with applicable privacy laws. Generally, Google offers its consumer services through either of two companies:
-                    <ul>
+                    The Google affiliate that provides the services, that processes your information, and that is responsible for complying with applicable privacy laws. Generally, Google offers its consumer services through either of two companies: </br> </br>
+                    <ul type='a'>
                         <li>Google Ireland Limited, if you’re located in the European Economic Area (EU countries plus Iceland, Liechtenstein, and Norway) or Switzerland</li>
                         <li>Google LLC, based in the United States, for the rest of the world</li>
                     <ul>
                 </li>
-
+            </ol>
+            <ol class='o-list'>
                 <li>
                     The version of the terms that govern our relationship, which can vary depending on local laws
                     Keep in mind that Google services are essentially the same regardless of the affiliate that provides the services or your country association.
                 </li>
-
             </ol>
+
+
+
             
             <h4> Determining the country associated with your account. </h4>
             When you create a new account, we associate your account with a country based on where you created your Google Account. For accounts at least a year old, we use the country from which you usually access Google services — typically where you’ve spent the most time in the last year. </br> </br>
