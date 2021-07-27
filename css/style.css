@@ -1,8 +1,13 @@
+/* header  */
+header {
+    height: 110px;
+    padding: 0 20px;
+    border-bottom: 1px solid #adabab;
+}
 .box-header-up {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    max-width: 1270px;
+    align-items: center;    
 }
 .box-logo {
     display: flex;
@@ -13,6 +18,36 @@
     margin-right: 10px ;
 }
 .box-logo h1 {
-    color: #cfcdcd;
+    color: #adabab;
 }
+nav ul {
+    
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    display: inline-block;
 
+}
+nav ul li a {
+    color: #adabab;
+    text-decoration: none;
+    margin-right:10px;
+    padding: 5px;
+}
+nav ul li:last-child a{
+    color: #3367d6;
+    border-bottom: 2px solid #3367d6
+}
+/* fine header  */
+/* main  */
+main {
+    height: calc(100vh - 110px);
+    overflow: auto;
+}
+.box-text {
+    width: 80%;
+    margin: auto;
+    max-width: 1320px;
+}

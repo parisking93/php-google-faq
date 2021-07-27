@@ -44,9 +44,9 @@ $arrPage = [
     ]
 ];
 
-foreach ($arrPage as $k => $value) {
-    var_dump($k);
-}
+// foreach ($arrPage as $k => $value) {
+//     var_dump($k);
+// }
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -70,13 +70,21 @@ foreach ($arrPage as $k => $value) {
         </div>
         <nav>
             <ul>
-
+                <?php foreach($arrPage as $key => $page) { ?>
+                    <li class="gia"><a href=""><?php echo $key?></a></li>
+                <?php } ?>
             </ul>
         </nav>
     </header>
 
     <main>
-        <div class="box-text"></div>
+        <div class="box-text">
+        <?php foreach($arrPage['FAQ'] as $k => $text) { ?>
+            <h2><?php echo $text["question"];?></h2>
+            <p><?php echo $text["answer"];?></p>
+
+        <?php } ?>
+        </div>
     </main>
     
 </body>
