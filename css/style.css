@@ -1,0 +1,18 @@
+.box-header-up {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1270px;
+}
+.box-logo {
+    display: flex;
+    align-items: center;
+}
+.box-logo img {
+    height: 60px;
+    margin-right: 10px ;
+}
+.box-logo h1 {
+    color: #cfcdcd;
+}
+
